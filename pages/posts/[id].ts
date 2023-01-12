@@ -1,4 +1,4 @@
-import { getAllPostIds } from "../../lib/posts";
+import { getAllPostIds } from "../../lib/post";
 
 export async function getStaticPaths() {
   const paths = getAllPostIds();
